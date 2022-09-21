@@ -1,0 +1,25 @@
+.nav-bar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 60px;
+  border-bottom: 1px solid #ddd;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-bar .links {
+  display: flex;
+}
+
+.nav-bar .links a {
+  margin-right: 10px;
+}
+
+.content {
+  padding: 0 2rem;
+}
